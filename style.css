@@ -79,11 +79,13 @@ section::before{
     height: 100%;
 }
 
-.percent .number .h2{
+.percent .number h2{
     color: white;
     font-weight: 700;
     font-size: 50px;
 }
+
+
 
 svg{
     display: none;
