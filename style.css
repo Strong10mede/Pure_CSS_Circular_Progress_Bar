@@ -120,8 +120,17 @@ section::before{
     z-index: 11;
     bottom: -70px;
 }
-
+.card:nth-child(1) .text{
+    background: #ff0461;
+}
+.card:nth-child(2) .text{
+    background: #2bd2ff;
+}
+.card:nth-child(2) .text{
+    background: #18d539;
+}
 
 svg{
-    display: none;
+    position: absolute;
+
 }
