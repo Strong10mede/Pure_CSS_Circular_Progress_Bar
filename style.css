@@ -90,8 +90,28 @@ section::before{
 }
 
 .text{
-
+  position: absolute;
+  bottom: -45px;
+  left:50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px 10px;
+  background: #f00;
+  z-index: 1;
+  letter-spacing: 1px;
+  font-weight: 800;
+  font-size: 18px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+  text-transform: uppercase;
+  border-radius: 10px;
+  color: #fff;
+  pointer-events: none;
+  transition: bottom 0.5s,z-index 0.5s, padding 0.5s, transform 0.5s;
 }
+
+
 
 
 svg{
