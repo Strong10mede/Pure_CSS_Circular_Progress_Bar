@@ -16,3 +16,13 @@ section{
     padding: 40px 0;
     background: #350048;
 }
+
+section::before{
+    content: '';
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #bd00ff;
+}
