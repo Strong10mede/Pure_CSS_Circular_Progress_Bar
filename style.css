@@ -61,7 +61,7 @@ section::before{
 }
 
 .percent{
-    position: absolute;
+    position: relative;
     height: 150px;
     width: 150px;
     border-radius: 50%;
@@ -87,6 +87,10 @@ section::before{
 
 .percent .number h2 span{
     font-size: 24px;
+}
+
+.text{
+
 }
 
 
