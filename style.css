@@ -26,3 +26,10 @@ section::before{
     height: 50px;
     background: #bd00ff;
 }
+
+.container{
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
