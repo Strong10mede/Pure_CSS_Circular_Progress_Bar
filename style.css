@@ -33,3 +33,12 @@ section::before{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.container .card{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin: 20px 20px 60px;
+    text-align: center;
+    z-index: 10;
+}
