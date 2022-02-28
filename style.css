@@ -152,3 +152,11 @@ svg circle:nth-child(2){
     stroke-dasharray: 440px;
     stroke-dashoffset: 44px;
 }
+
+.card:nth-child(2) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440*0.83));
+}
+
+.card:nth-child(3) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440*0.65));
+}
