@@ -85,6 +85,9 @@ section::before{
     font-size: 50px;
 }
 
+.percent .number h2 span{
+    font-size: 24px;
+}
 
 
 svg{
