@@ -108,11 +108,13 @@ section::before{
   border-radius: 10px;
   color: #fff;
   pointer-events: none;
-  transition: bottom 0.5s,z-index 0.5s, padding 0.5s, transform 0.5s;
+  transition: bottom 0.5s,z-index 0s, padding 0.5s, transform 0.5s;
+  transition-delay: 0.5s,0.5s,0.5s,0s;
   
 }
 
 .card:hover .text{
+    transition-delay: 0s,0.5s,0s,0.5s; 
     transform: translateX(-50%) translateY(-50px);
     padding: 10px 20px 10px;
     z-index: 11;
